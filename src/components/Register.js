@@ -3,10 +3,6 @@ import SidebarView from './common/SidebarView';
 import NavBar from './common/NavBar'; 
 
 class Register extends Component {
-  constructor(props) {
-    super(props);
-  }  
-
   render() {
     return (
       <div id="wrapper" className="toggled">
@@ -16,8 +12,17 @@ class Register extends Component {
           <div className="container-fluid ">
             
             <h1>Register</h1>
-            <p>This template has a responsive menu toggling system. The mnu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
-            <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
+            <p>
+              "Here all suspicion needs must be abandoned,
+               <br />
+               All cowardice must needs be here extinct."
+              <br /><br />
+              There is no one who loves pain itself, who seeks after it and wants to have it, 
+              simply because it is pain. <br />
+
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br />
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br /> 
+            </p>
 
           </div>
         </div>
@@ -26,4 +31,5 @@ class Register extends Component {
   }
 }
 
-export default Register ; 
+export default Register; 
+

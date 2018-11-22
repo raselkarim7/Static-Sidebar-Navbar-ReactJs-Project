@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
-import { MainRoute } from '../../routes'; 
-import  store  from '../../config/store';
-import { hot } from 'react-hot-loader'; 
+
+import store from '../config/store';
+import { MainRoute } from '../routes';
 
 class App extends Component {
   render() {
@@ -14,4 +14,4 @@ class App extends Component {
   }
 }
 
-export default hot(module)(App);
+export default App;

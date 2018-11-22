@@ -8,44 +8,53 @@ class NavBarMenuWrapper extends Component {
             <div className="nav-item d-flex align-items-center mx-1 ">
                 <div> 
                    <Link className="nav-link" to='#'> 
-                     <i className="far fa-comments"></i>
-                     <span className="count-symbol bg-warning"></span>
+                     <i className="far fa-comments" />
+                     <span className="count-symbol bg-warning" />
                    </Link>
                 </div>
             </div>
             <div className="nav-item d-flex align-items-center mx-2">
                 <div>
                    <Link className="nav-link" to='#'> 
-                     <i className="fas fa-bell"></i> 
-                     <span className="count-symbol bg-danger"></span>
+                     <i className="fas fa-bell" />
+                     <span className="count-symbol bg-danger" />
                    </Link>
                 </div>
             </div>
 
             <div className=" d-flex align-items-stretch"> 
-                <div className="border my-2 mr-2"> </div>
+                <div className="border my-2 mr-2" /> 
             </div>
 
             <div className="nav-item nav-profile dropdown mx-1 row  d-flex align-items-center">
                 <div className="dropdown ">
-                    <Link className=" dropdown-toggle " to="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Isaac Newton
+                    <Link 
+                        className=" dropdown-toggle " to="#" role="button" id="dropdownMenuLink" 
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                    >
+                        Raj Kapoor
                     </Link>
-                    <div className="dropdown-menu dropdown-menu-right show-will-work" aria-labelledby="dropdownMenuLink">
+                    <div 
+                        className="dropdown-menu dropdown-menu-right show-will-work" 
+                        aria-labelledby="dropdownMenuLink"
+                    >
                         <Link className="dropdown-item" to="#">Action</Link>
                         <Link className="dropdown-item" to="#">Another action</Link>
                         <Link className="dropdown-item" to="#">Something else here</Link>
                     </div>
                 </div>
-                <Link className="nav-link" id="profileDropdown" to="#" data-toggle="dropdown" aria-expanded="false">
+                <Link 
+                    className="nav-link" id="profileDropdown" to="#" data-toggle="dropdown" 
+                    aria-expanded="false"
+                >
                     <div className="nav-profile-img ml-1">
                         <img 
                             width="30"
                             src="../../images/faces/face2.jpg" 
-                            alt="image"  
+                            alt="profile pic"  
                             className="rounded-circle"
                         />
-                        <span className="availability-status online"></span>             
+                        <span className="availability-status online" />      
                     </div>
                 </Link>
             </div>

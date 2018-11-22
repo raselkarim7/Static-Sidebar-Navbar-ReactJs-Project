@@ -15,9 +15,18 @@ class FraudManagement extends Component {
           <NavBar />
           <div className="container-fluid ">
             
-            <h1>FraudManagement</h1>
-            <p>This template has a responsive menu toggling system. The mnu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
-            <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
+            <h1>Fraud Management</h1>
+            <p>
+              "Here all suspicion needs must be abandoned,
+               <br />
+               All cowardice must needs be here extinct."
+              <br /><br />
+              There is no one who loves pain itself, who seeks after it and wants to have it, 
+              simply because it is pain. <br />
+
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br />
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br /> 
+            </p>
 
           </div>
         </div>

@@ -1,36 +1,36 @@
 {
-  "name": "static-sidebar-navbar-reactjs",
+  "name": "simple-reactjs-project-with-static-sidebar-navbar-",
   "version": "1.0.0",
-  "description": "Basic React Js Project with Static Sidebar & Navbar.",
+  "description": "Basic React Js project with statice Sidebar & Navbar",
   "main": "index.js",
-  "repository": "",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production"
   },
   "author": "Rasel Karim",
-  "license": "ISC",
-  "devDependencies": {
-    "babel-core": "^6.2.1",
-    "babel-loader": "^6.2.0",
-    "babel-preset-es2015": "^6.1.18",
-    "babel-preset-react": "^6.1.18",
-    "css-loader": "^1.0.1",
-    "style-loader": "^0.23.1",
-    "webpack": "^1.12.9",
-    "webpack-dev-server": "^1.14.0"
-  },
+  "license": "",
   "dependencies": {
-    "babel-preset-stage-1": "^6.1.18",
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-config-rallycoding": "^3.2.0",
     "html-webpack-plugin": "^3.2.0",
-    "lodash": "^3.10.1",
-    "react": "16.3.2",
-    "react-dom": "16.3.2",
-    "react-hot-loader": "^4.3.12",
-    "react-redux": "5.0.7",
-    "react-router-dom": "^4.3.1",
-    "redux": "4.0.0",
-    "redux-promise": "^0.6.0",
-    "redux-thunk": "^2.3.0"
+    "style-loader": "^0.20.3",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "^3.1.3"
   }
 }

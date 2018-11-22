@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
-import Dashboard  from '../components/Dashboard';
+import Dashboard from '../components/Dashboard';
 import IssueNotification from '../components/IssueNotification';
 import ConfigAppParameters from '../components/ConfigAppParameters'; 
 import Register from '../components/Register';
@@ -15,8 +15,8 @@ import FraudManagement from '../components/FraudManagement';
 
 
 const MainRoute = () => (
-    <main>
-      <Switch>
+  <main>
+    <Switch>
           <Route path="/issuenotification" component={IssueNotification} />
           <Route path="/configappparameters" component={ConfigAppParameters} />
           <Route path="/register" component={Register} />
@@ -28,8 +28,8 @@ const MainRoute = () => (
           <Route path="/analytics" component={Analytics} />
           <Route path="/fraudmanagement" component={FraudManagement} />
           
-          <Route path="/" component={Dashboard} />
-      </Switch>
+          <Route path="/" component={Dashboard} /> 
+    </Switch>
   </main>
 );
 
